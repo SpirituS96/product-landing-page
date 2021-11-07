@@ -4,9 +4,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.scss">
     <title>Document</title>
 </head>
 <body>
-    
+  <header id="header">
+    <div class="logo">
+      <img src="http://cdn.onlinewebfonts.com/svg/img_41114.png" alt="company logo" class="header-img" id="header-img">
+      <h2>Block Flute World</h2>
+    </div>
+    <nav id="nav-bar">
+      <ul>
+        <li><a href="#features" name="" class="nav-link">Features</a></li>
+        <li><a href="#how-it-works" name="" class="nav-link">How it works</a></li>
+        <li><a href="#pricing" name="" class="nav-link">Pricing</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <form action="URL:https://www.freecodecamp.com/email-submit" method="get" id="form" class="form">
+      <h2>Try it now!</h2>
+      <input type="email" class="email" id="email" name="email" placeholder="Enter you email address" required>
+      <input type="submit" id="submit" value="GET STARTED!">
+    </form>
+
+    <section id="features" class="features">
+      <div class="features-item">
+        <div class="features-item-logo">
+          <img class="features-item-icon" src="https://image.flaticon.com/icons/svg/56/56317.svg" alt="premium icon">
+        </div>   
+        <h2>Premium Materials</h2>
+        <p>Our block flutes made from the best materials. This will increase the longevity of your purchase.</p>
+      </div>
+      <div class="features-item">
+        <div class="features-item-logo">
+          <img class="features-item-icon" src="https://image.flaticon.com/icons/png/512/82/82018.png" alt="fast icon">
+        </div>
+        <h2>Fast Shipping</h2>
+        <p>We make sure you recieve your block flute as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+      </div>
+      <div class="features-item">
+        <div class="features-item-logo">
+          <img class="features-item-icon" src="https://macbethroof.com/wp-content/uploads/2017/09/Quality-icon.png" alt="secure icon">
+        </div>
+        <h2>Quality Assurance</h2>
+        <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+      </div>
+    </section>
+    <section id="how-it-works">
+      <iframe id="video" height="400" src="https://www.youtube.com/embed/mkecQs8gbIM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </section>
+
+    <section id="pricing">
+      <div class="row">
+        <div class="row-item"  id="tenor">
+          <div class="level">TENOR BLOCK FLUTE</div>
+          <h2>$300</h2>
+          <ul>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum dolor</li>
+            <li>Lorem ipsum</li>
+          </ul>
+          <button class="btn">SELECT</button>
+        </div>
+        <div class="row-item" id="alt">
+          <div class="level">ALT BLOCK FLUTE</div>
+          <h2>$250</h2>
+          <ul>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum dolor</li>
+            <li>Lorem ipsum</li>
+          </ul>
+          <button class="btn">SELECT</button>
+        </div>
+        <div class="row-item" id="soprano">
+          <div class="level">SOPRANO BLOCK FLUTE</div>
+          <h2>$200</h2>
+          <ul>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum dolor</li>
+            <li>Lorem ipsum</li>
+          </ul>
+          <button class="btn">SELECT</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <ul>
+      <li><a href="#" class="footer-link">Privacy</a></li>
+      <li><a href="#" class="footer-link">Terms</a></li>
+      <li><a href="#" class="footer-link">Contact</a></li>
+    </ul>
+    <span>Copyright 2018, Black Flute World</span>
+  </footer>
+</div>
 </body>
 </html>
